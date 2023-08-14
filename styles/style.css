@@ -1,0 +1,200 @@
+ /* Navigation */
+
+
+ .header {
+     background: #FFF8F3;
+     background-image: url('../images/header_bg.png'), url('../images/developer.png');
+     background-repeat: no-repeat;
+     background-position: bottom right, left;
+ }
+
+ .logo-title {
+     font-family: Open Sans;
+     font-size: 40px;
+     font-style: normal;
+     font-weight: 800;
+ }
+
+ nav {
+     display: flex;
+     justify-content: space-between;
+     margin: 10px 100px;
+ }
+
+ nav li {
+     list-style: none;
+     margin-left: 50px;
+     font-size: 20px;
+ }
+
+ nav ul {
+     display: flex;
+     align-items: center;
+ }
+
+ .title-color {
+     color: #FD6E0A;
+ }
+
+ .btn {
+     color: white;
+     font-weight: 700;
+     font-size: 20px;
+     border: 0;
+     padding: 18px 35px;
+     height: 64px;
+     border-radius: 5px;
+     background: #FD6E0A;
+
+ }
+
+ /* Banner */
+ .banner {
+     display: flex;
+     align-items: center;
+     margin-left: 100px;
+ }
+
+ img {
+     width: 584px;
+     height: 676px;
+
+ }
+
+ .intro {
+     color: black;
+     font-size: 25px;
+
+ }
+
+ /* Main Section */
+ .main {
+     max-width: 1140px;
+     margin: 0px auto;
+
+ }
+
+ .about {
+     margin-top: 131px;
+     border-radius: 10px;
+     background: #f8a9713b;
+     padding: 100px 157px;
+     text-align: center;
+
+
+
+
+ }
+
+ .section-title {
+     text-align: center;
+     font-size: 18px;
+
+ }
+
+ .section-description {
+     text-align: center;
+     padding: 0px 157px;
+     margin-bottom: 130px;
+
+ }
+
+ .info-container {
+     display: flex;
+     justify-content: space-around;
+ }
+
+ .first-info {
+     color: var(--dark-03, #757575);
+     text-align: center;
+     font-family: Open Sans;
+     font-size: 20px;
+     font-weight: 400;
+     line-height: 30px;
+ }
+
+ .second-info {
+     color: var(--dark-02, #474747);
+     font-family: Open Sans;
+     font-size: 20px;
+     font-weight: 700;
+     line-height: 30px;
+ }
+
+ .info {
+
+     align-content: space-between;
+ }
+
+ .what-i-do {
+     margin-top: 130px;
+ }
+
+ .skill-container {
+     display: flex;
+ }
+
+ .img {
+     width: 44px;
+     height: 44px;
+ }
+
+ .skills {
+     border-radius: 5px;
+     background: #FFF;
+     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+     padding: 20px 20px;
+     margin-right: 20px;
+ }
+
+ .institute {
+    font-size: 15px;
+    
+     
+ }
+ .des{
+    font-size: 10px;
+ }
+ .eduex{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+ }
+ .summary{
+    text-align: center;
+     margin-top: 50px;
+     margin-bottom: 50px;
+ }
+ .one{
+    max-width: 511px;
+ }
+ .bun{
+    
+    text-align: center;
+    padding: 50px;
+    
+ }
+ .bton{
+    
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    
+ }
+ .icon{
+    height: 25px;
+    width: 25px;
+ }
+ .foot{
+    display: flex;
+    max-width: 1140px;
+     margin: 0px auto;
+     
+    justify-content: space-between;
+    
+ }
